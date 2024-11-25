@@ -12,7 +12,7 @@ body {
     height: 250px;
     /* background-color: rgb(82, 58, 58); */
     display: flex;
-    padding: 20px 15%;
+    /* padding: 20px 15%; */
     justify-content: left;
   }
   
@@ -34,7 +34,7 @@ body {
       transform: translate(0vw);
     }
     100%{
-      transform: translate(10vw);
+      transform: translate(18vw);
     }
   }@keyframes slide2{
   
@@ -42,7 +42,7 @@ body {
       transform: translate(0vw);
     }
     100%{
-      transform: translate(42vw);
+      transform: translate(39vw);
     }
   }
   @keyframes slide3{
@@ -51,13 +51,13 @@ body {
     transform: translate(0vw);
   }
   100%{
-    transform: translate(80vw);
+    transform: translate(65vw);
   }
   }
   
   .img1
   {
-    transform: translate(8vw);
+    transform: translate(18vw);
     animation: slide1 2s infinite;
   }
   .img2
@@ -67,18 +67,19 @@ body {
   }
   .img3
   {
-    transform: translate(80  vw);
+    transform: translate(65 vw);
      animation: slide3 2s infinite;
   }
   
   nav ul {
     list-style: none;
     padding: 0;
+    /* overflow: hidden; */
   }
   
   nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 10px;
   }
   
   nav ul li a {
@@ -129,4 +130,5 @@ body {
   }
   div#home {
     /* background-color: #533838; */
+    position: relative;
   }
